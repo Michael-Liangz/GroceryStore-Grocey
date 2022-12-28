@@ -13,15 +13,70 @@
     <!-- TODO ======================= CSS ======================= -->
     <link rel="stylesheet" href="assets/css/styles.css">
 
-    <title>MiKe - Grocery</title>
+    <title>MiKe-Grocery</title>
 </head>
 
 <body>
+    <!-- TODO ======================= HEADER ======================= -->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i> Grocey. </a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#review">Review</a>
+            <a href="#blog">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" name="" id="search-box" placeholder="Seacrh here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="assets/img/cart-img-1.png" alt="Watermelon">
+                <div class="content">
+                    <h3>Watermelon</h3>
+                    <span class="price">IDR 20K/-</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="assets/img/cart-img-2.png" alt="Onion">
+                <div class="content">
+                    <h3>Onion</h3>
+                    <span class="price">IDR 5K/-</span>
+                    <span class="quantity">Qty : 3</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="assets/img/cart-img-3.png" alt="Chicken">
+                <div class="content">
+                    <h3>Chicken</h3>
+                    <span class="price">IDR 30K/-</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+            <div class="total">Total : IDR 55K/-</div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
 
 
+    </header>
 
-
-    <!-- TODO ======================= JavaScript ======================= -->
+    <!-- TODO ======================= MAIN JS ======================= -->
     <script src="assets/js/main.js"></script>
 </body>
 
