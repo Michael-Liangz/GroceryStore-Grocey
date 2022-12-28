@@ -277,7 +277,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("/assets/img/banner-bg.webp") no-repeat;
+  background-image: url("/assets/img/banner-bg.webp");
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding-top: 17rem;
