@@ -533,6 +533,7 @@ section {
 
 .blogs .box-container .box .content .icons a:hover {
   color: var(--black);
+  font-weight: bolder;
 }
 
 .blogs .box-container .box .content .icons a i {
