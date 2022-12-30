@@ -124,6 +124,7 @@ section {
 .header .icons div:hover {
   background: var(--orange);
   color: #fff;
+  transform: rotate(360deg);
 }
 
 #menu-btn {
@@ -646,6 +647,30 @@ section {
 .footer .credit span {
   color: var(--orange);
 } */
+
+/* TODO ======================= LOADER ======================= */
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10000;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.loader-container img {
+  width: 35rem;
+}
+
+.loader-container.fade-out {
+  top: 110%;
+  opacity: 0;
+}
 
 /* TODO ======================= MEDIA QUERIES ======================= */
 @media (max-width: 991px) {
